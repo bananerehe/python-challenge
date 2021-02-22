@@ -1,0 +1,1 @@
+import osimport csv# Path to collect data from the Resources folderfilepath = os.path.join('Resources', 'election_data.csv')# Open CSV file and skip headerwith open(filepath) as csvfile:    csvreader = csv.reader(csvfile)    header = next(csvreader)
